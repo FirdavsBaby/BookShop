@@ -1,0 +1,86 @@
+@media (max-width: $lg) {
+  nav.container {
+    width: 70%;
+    position: fixed;
+    padding: 20px 50px;
+    background-color: $lightblue;
+    color: white;
+    left: 30%;
+    gap: 20px;
+    z-index: 99999999;
+    .text {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      #type {
+        width: 30%;
+        border: 0;
+        border-radius: 20px;
+        padding: 0 10px;
+        font-size: 18px;
+        line-height: 2;
+      }
+    }
+    .total_price {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 14px;
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: $md) {
+  nav.container {
+    width: 900px;
+    position: fixed;
+    padding: 20px 50px;
+    background-color: $lightblue;
+    color: white;
+    gap: 20px;
+    z-index: 99999999;
+    position: relative;
+    .text {
+      width: 100%;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      #type {
+        width: 30%;
+        border: 0;
+        border-radius: 20px;
+        padding: 0 10px;
+        font-size: 18px;
+        line-height: 2;
+      }
+      #search {
+        width: 10%;
+        border: 0;
+        border-radius: 5px;
+        background-color: green;
+        color: white;
+        line-height: 2;
+        transition: all ease-in-out 0.4s;
+        &:hover {
+          background-color: white;
+          color: green;
+        }
+      }
+    }
+    .total_price {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      font-size: 14px;
+      span {
+        font-size: 20px;
+      }
+    }
+  }
+}

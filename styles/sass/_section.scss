@@ -1,0 +1,79 @@
+@media (max-width: $lg) {
+    section.container {
+        width: 70%;
+        position: absolute;
+        left: 30%;
+        top: 70px;
+        height: 89vh;
+        z-index: 999;
+        background-color: aqua;
+        padding: 30px 80px;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        overflow-y: hidden;
+        .card {
+            width: 230px;
+            .top {
+                width: 100%;
+                background-color: $lightblue;
+                color: white;
+                padding: 25px 20px;
+                border-radius: 20px 20px 0 0;
+            }
+            .bottom {
+                width: 100%;
+                background-color: $darkblue;
+                padding: 30px 20px;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                border-radius:  0 0 20px 20px;
+                gap: 10px;
+                min-height: 200px;
+                p {
+                    color: gray;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $md) {
+    section.container {
+        width: 800px;
+        z-index: 999;
+        background-color: aqua;
+        padding: 30px 80px;
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+        overflow-y: hidden;
+        position: relative;
+        min-height: 400px;
+        .card {
+            width: 70%;
+            .top {
+                width: 100%;
+                background-color: $lightblue;
+                color: white;
+                padding: 25px 20px;
+                border-radius: 20px 20px 0 0;
+            }
+            .bottom {
+                width: 100%;
+                background-color: $darkblue;
+                padding: 30px 20px;
+                color: white;
+                display: flex;
+                flex-direction: column;
+                border-radius:  0 0 20px 20px;
+                gap: 10px;
+                min-height: 200px;
+                p {
+                    color: gray;
+                }
+            }
+        }
+    }
+}

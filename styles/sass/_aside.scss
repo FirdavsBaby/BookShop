@@ -1,0 +1,136 @@
+@media (max-width: $lg) {
+    aside.container {
+        position: absolute;
+        width: 30%;
+        background-color: $violet;
+        padding: 10px;
+        font-size: 30px;
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        min-height: 100vh;
+        .filter {
+            width: 100%;
+            padding:0  20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            h2 {
+                font-size: 40px;
+            }
+            .filter2 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 0 100px;
+            }
+            #price {
+                width: 90%;
+                padding: 10px 10px;
+                font-size: 25px;
+                border-radius: 20px;
+                border: 0;
+            }
+            .btns-input {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                display: flex;
+                gap: 15px;
+                .btns {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                justify-content: center;
+                button {
+                    width: 40%;
+                    line-height: 3;
+                    background-color: aqua;
+                    border: 0;
+                    font-size: 20px;
+                    border-radius: 20px;
+                    color: white;
+                    transition: all ease-in-out 0.4s;
+                    &:hover {
+                        background-color: white;
+                        color: aqua;
+                    }
+                }
+            }
+            }
+        }
+    }
+}
+
+@media (max-width: $md) {
+    aside.container {
+        position: relative;
+        width: 900px;
+        background-color: $violet;
+        padding: 10px;
+        font-size: 30px;
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        min-height: 100vh;
+        display: none;
+        .filter {
+            width: 100%;
+            padding:0  20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            h2 {
+                font-size: 40px;
+            }
+            .filter2 {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 0 100px;
+            }
+            #price {
+                width: 90%;
+                padding: 10px 10px;
+                font-size: 25px;
+                border-radius: 20px;
+                border: 0;
+            }
+            .btns-input {
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                display: flex;
+                gap: 15px;
+                .btns {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                justify-content: center;
+                button {
+                    width: 40%;
+                    line-height: 3;
+                    background-color: aqua;
+                    border: 0;
+                    font-size: 20px;
+                    border-radius: 20px;
+                    color: white;
+                    transition: all ease-in-out 0.4s;
+                    &:hover {
+                        background-color: white;
+                        color: aqua;
+                    }
+                }
+            }
+            }
+        }
+    }
+}

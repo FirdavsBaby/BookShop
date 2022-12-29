@@ -1,0 +1,21 @@
+@media (max-width: $lg) {
+    footer.container {
+        width: 70%;
+        position: absolute;
+        background-color: $lightblue;
+        z-index: 999999999999999;
+        left: 30%;
+        bottom: 0;
+        height: 50px;
+    }
+}
+@media (max-width: $md) {
+    footer.container {
+        width: 900px;
+        background-color: $lightblue;
+        z-index: 999999999999999;
+        height: 50px;
+        position: relative;
+        bottom: 0;
+    }
+}
